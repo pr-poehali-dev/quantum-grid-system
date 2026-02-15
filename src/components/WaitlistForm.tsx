@@ -25,8 +25,8 @@ export function WaitlistForm({ onSuccess }: WaitlistFormProps) {
 
     // Mock success response
     toast({
-      title: "Отлично!",
-      description: "Вы добавлены в список ожидания!",
+      title: "Вы в списке! 🎉",
+      description: "Мы напишем вам, когда мессенджер будет готов к запуску.",
       duration: 5000,
     })
 
@@ -57,7 +57,7 @@ export function WaitlistForm({ onSuccess }: WaitlistFormProps) {
           {isPending ? (
             <Loader2 className="h-5 w-5 animate-spin" />
           ) : (
-            'Записаться'
+            'Хочу первым'
           )}
         </Button>
       </div>
