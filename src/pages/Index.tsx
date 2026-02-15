@@ -27,7 +27,7 @@ export default function Index() {
     <main
       className="min-h-screen flex items-center justify-center"
       style={{
-        background: "radial-gradient(circle at center, #6D28D9, #000000)",
+        background: "radial-gradient(circle at center, #16A34A, #000000)",
       }}
     >
       <style>{backgroundStyle}</style>

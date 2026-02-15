@@ -37,7 +37,7 @@ export function WaitlistForm({ onSuccess }: WaitlistFormProps) {
 
   return (
     <form onSubmit={handleSubmit} className="w-full space-y-4 mb-8">
-      <div className="flex overflow-hidden rounded-xl bg-white/5 p-1 ring-1 ring-white/20 focus-within:ring-2 focus-within:ring-blue-500">
+      <div className="flex overflow-hidden rounded-xl bg-white/5 p-1 ring-1 ring-white/20 focus-within:ring-2 focus-within:ring-green-500">
         <Input
           id="email"
           name="email"
